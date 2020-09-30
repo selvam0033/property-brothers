@@ -1,0 +1,116 @@
+package com.egen.ecom.orderprocessing.domain;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Address {
+	@Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
+	private int addressId;
+	private String addressType;
+	private String addreassLine1;
+	private String addreassLine2;
+	private String state;
+	private String city;
+	private String zip;
+	
+	
+	
+	
+	public String getAddressType() {
+		return addressType;
+	}
+
+
+	public void setAddressType(String addressType) {
+		this.addressType = addressType;
+	}
+
+
+	public int getAddressId() {
+		return addressId;
+	}
+
+
+	public void setAddressId(int addressId) {
+		this.addressId = addressId;
+	}
+
+
+	public String getAddreassLine1() {
+		return addreassLine1;
+	}
+
+
+	public void setAddreassLine1(String addreassLine1) {
+		this.addreassLine1 = addreassLine1;
+	}
+
+
+	public String getAddreassLine2() {
+		return addreassLine2;
+	}
+
+	public void setAddreassLine2(String addreassLine2) {
+		this.addreassLine2 = addreassLine2;
+	}
+
+
+	public String getState() {
+		return state;
+	}
+
+
+
+	public void setState(String state) {
+		this.state = state;
+	}
+
+
+	public String getCity() {
+		return city;
+	}
+
+
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+
+	public String getZip() {
+		return zip;
+	}
+
+
+	public void setZip(String zip) {
+		this.zip = zip;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Address [addressId=" + addressId + ", addressType=" + addressType + ", addreassLine1=" + addreassLine1
+				+ ", addreassLine2=" + addreassLine2 + ", state=" + state + ", city=" + city + ", zip=" + zip + "]";
+	}
+
+
+	public Address(int addressId, String addressType, String addreassLine1, String addreassLine2, String state,
+			String city, String zip) {
+		super();
+		this.addressId = addressId;
+		this.addressType = addressType;
+		this.addreassLine1 = addreassLine1;
+		this.addreassLine2 = addreassLine2;
+		this.state = state;
+		this.city = city;
+		this.zip = zip;
+	}
+
+
+	
+	
+}

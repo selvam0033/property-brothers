@@ -1,0 +1,17 @@
+com\egen\ecom\shopping\cart\domain\ShoppingCarts.class
+com\egen\ecom\shopping\cart\domain\Customer.class
+com\egen\ecom\shopping\cart\repository\ItemRepo.class
+com\egen\ecom\shopping\cart\repository\CustomerRepo.class
+com\egen\ecom\shopping\cart\repository\OrdersRepo.class
+com\egen\ecom\shopping\cart\services\OrderService.class
+com\egen\ecom\shopping\cart\domain\Orders.class
+com\egen\ecom\shopping\cart\domain\ShoppingCart.class
+com\egen\ecom\shopping\cart\domain\Item.class
+com\egen\ecom\shopping\OnlineShoppingApplication.class
+com\egen\ecom\shopping\cart\repository\AddressRepo.class
+com\egen\ecom\shopping\cart\domain\Payment.class
+com\egen\ecom\shopping\cart\services\impl\OrderServiceImpl.class
+com\egen\ecom\shopping\cart\domain\Address.class
+com\egen\ecom\shopping\cart\controller\ShoppingCartController.class
+com\egen\ecom\shopping\cart\repository\PaymentRepo.class
+com\egen\ecom\shopping\cart\repository\ShoppingCartRepo.class
